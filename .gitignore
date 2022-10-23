@@ -1,0 +1,9 @@
+.idea
+.direnv
+.mypy_cache
+.envrc
+build
+shell.nix
+__pycache__/
+celerybeat-schedule
+*.iml
