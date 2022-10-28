@@ -1,6 +1,8 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 
+from ProductDate.company.models import Company, Shop
+
 
 class User(AbstractUser):
     class Types(models.TextChoices):
@@ -8,18 +10,30 @@ class User(AbstractUser):
         SHOP_ADMIN_USER = "SHOP_ADMIN_USER", "Shop_admin_user"
         SHOP_USER = "SHOP_USER", "Shop_user"
 
-    type = models.CharField(max_length=50, choices=Types.choices, default=Types.SHOP_USER)
+    type = models.CharField(
+        max_length=50, choices=Types.choices, default=Types.SHOP_USER
+    )
     name = models.CharField(blank=True, max_length=255)
+    company = models.ForeignKey(
+        Company, on_delete=models.CASCADE, blank=True, null=True
+    )
+    shop = models.ForeignKey(Shop, on_delete=models.CASCADE, blank=True, null=True)
 
 
 class CompanyManger(models.Manager):
     def queryset(self, *args, **kwargs):
-        return super().get_queryset(*args, **kwargs).filter(type=User.Types.COMPANY_USER)
+        return (
+            super().get_queryset(*args, **kwargs).filter(type=User.Types.COMPANY_USER)
+        )
 
 
 class ShopAdminManger(models.Manager):
     def queryset(self, *args, **kwargs):
-        return super().get_queryset(*args, **kwargs).filter(type=User.Types.SHOP_ADMIN_USER)
+        return (
+            super()
+            .get_queryset(*args, **kwargs)
+            .filter(type=User.Types.SHOP_ADMIN_USER)
+        )
 
 
 class ShopManger(models.Manager):
