@@ -24,7 +24,8 @@ class UserCreateAPIView(generics.GenericAPIView):
                     user, context=self.get_serializer_context()
                 ).data,
                 "token": token.key,
-            }
+            },
+            status=status.HTTP_201_CREATED,
         )
 
 
