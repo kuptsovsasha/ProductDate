@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "rest_framework.authtoken",
+    "django_rest_passwordreset",
     "drf_yasg",
     "ProductDate.user",
     "ProductDate.company",
@@ -139,6 +140,7 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = "user.User"
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 # DRF Settings
 REST_FRAMEWORK = {
