@@ -1,37 +1,39 @@
-asgiref @ file:///home/sasha/.cache/pypoetry/artifacts/22/46/4d/e9d170f76cad59b81e4568f6b37cce88f46df63c197e476a1020862182/asgiref-3.5.2-py3-none-any.whl
-black @ file:///home/sasha/.cache/pypoetry/artifacts/68/c2/8a/f75aaccd5ae45cf4d1d17da7b1b9bc4721fe82dba2779809d07de2117a/black-22.10.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-certifi @ file:///home/sasha/.cache/pypoetry/artifacts/ab/60/ac/049f229ab671c6c210f7ca32646b322a0f308c39a527b50544153de57d/certifi-2022.9.24-py3-none-any.whl
-charset-normalizer @ file:///home/sasha/.cache/pypoetry/artifacts/e5/e0/4b/1a8efda7c7e867cc898eee8167f0482e7d650dc2af571484014d4e962d/charset_normalizer-2.1.1-py3-none-any.whl
-click @ file:///home/sasha/.cache/pypoetry/artifacts/63/f3/4c/2270b95f4d37b9ea73cd401abe68b6e9ede30380533cd4e7118a8e3aa3/click-8.1.3-py3-none-any.whl
-coreapi @ file:///home/sasha/.cache/pypoetry/artifacts/a6/df/a7/cfa75e53df8e76b11b59c0b99261dad805b6e9c524b38f251b164f4c7d/coreapi-2.3.3-py2.py3-none-any.whl
-coreschema @ file:///home/sasha/.cache/pypoetry/artifacts/19/4a/68/2602ba76179c51b7872f6916903099f4717be055c0e39c7ca4dbbcdd34/coreschema-0.0.4.tar.gz
-Django @ file:///home/sasha/.cache/pypoetry/artifacts/c8/d8/c5/26be828dfad6fc0ae716f9279f944083f94c19301988f14e9be478a54a/Django-4.1.2-py3-none-any.whl
-django-environ @ file:///home/sasha/.cache/pypoetry/artifacts/0a/a9/36/e95eca56807159f22244ccb29b35250fc0f0902ada2196428e9445c4e5/django_environ-0.9.0-py2.py3-none-any.whl
-django-filter @ file:///home/sasha/.cache/pypoetry/artifacts/24/26/56/db40d486067e68d7a096d3b08a0cbe4d85e9f0f6bb56c447f621059b85/django_filter-22.1-py3-none-any.whl
-django-rest-passwordreset @ file:///home/sasha/.cache/pypoetry/artifacts/2b/d7/3e/ae72e5136b7efeef12b25d3457eeb36e8a22dd42b32f077b41e31a2c7d/django_rest_passwordreset-1.3.0-py3-none-any.whl
-djangorestframework @ file:///home/sasha/.cache/pypoetry/artifacts/20/30/7a/84b42d5bd530132e945ba03b8508b6877743ff6b6ad8ea00ba2ef2b89c/djangorestframework-3.14.0-py3-none-any.whl
-drf-yasg @ file:///home/sasha/.cache/pypoetry/artifacts/4b/95/5b/00295f360d9d77ccc4cbd23d755a3af8e6c5d1b7c6aa27dc50fd7317c0/drf_yasg-1.21.4-py3-none-any.whl
-flake8 @ file:///home/sasha/.cache/pypoetry/artifacts/62/a7/26/e48f1b5cd33d20534deee3ede65fe06f72c5063597ad00e7888bc61b6e/flake8-5.0.4-py2.py3-none-any.whl
-idna @ file:///home/sasha/.cache/pypoetry/artifacts/6c/c4/9a/4a40812e61d669fffc474987128ff48aab9be33cdddc5e5038bd96f4ac/idna-3.4-py3-none-any.whl
-inflection @ file:///home/sasha/.cache/pypoetry/artifacts/92/b6/df/e26ca7531bb4c956521ef088a33fb7056d28ba9305979e3b5831c3200e/inflection-0.5.1-py2.py3-none-any.whl
-isort @ file:///home/sasha/.cache/pypoetry/artifacts/12/e3/f1/e8e484225dcc659de6e4ac34a4ad996cb71f36119e54e71462cc7ad7e8/isort-5.10.1-py3-none-any.whl
-itypes @ file:///home/sasha/.cache/pypoetry/artifacts/b5/ef/ee/43c47e89ae363afed68f9924343988ca6c4a2aa936af9b61c7b152bba4/itypes-1.2.0-py2.py3-none-any.whl
-Jinja2 @ file:///home/sasha/.cache/pypoetry/artifacts/49/36/ae/943f6cd852641f7249acddef711eb97d0c9ed91d7f435c798b6d7041ca/Jinja2-3.1.2-py3-none-any.whl
-MarkupSafe @ file:///home/sasha/.cache/pypoetry/artifacts/dd/cc/d7/91f68383c04a15a87f0a2b31599de891c89b1d15e309273f759daf132c/MarkupSafe-2.1.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-mccabe @ file:///home/sasha/.cache/pypoetry/artifacts/6e/13/d3/27dd3d81419a63f54cee1343db4375f63135b517d83e52d7447875f739/mccabe-0.7.0-py2.py3-none-any.whl
-mypy-extensions @ file:///home/sasha/.cache/pypoetry/artifacts/2f/c6/09/3e1afdcb75322c65b786e63cd7e879b6be3db36dea78ca376db5483ae4/mypy_extensions-0.4.3-py2.py3-none-any.whl
-packaging @ file:///home/sasha/.cache/pypoetry/artifacts/d3/1f/90/3f2473250ebd055fe7f0856810677783949fc0d2e5f25bbb4dc00ad0a9/packaging-21.3-py3-none-any.whl
-pathspec @ file:///home/sasha/.cache/pypoetry/artifacts/21/5e/3c/35aa240c8c4da8aad6f1551b1b00065eb46e60eafb2ab377dc10eb3c04/pathspec-0.10.1-py3-none-any.whl
-platformdirs @ file:///home/sasha/.cache/pypoetry/artifacts/ea/8e/52/e5ac2f14474cef8f0fd44b4aa7d6968bfa89442d1b88ab567c446eae70/platformdirs-2.5.2-py3-none-any.whl
-psycopg2-binary @ file:///home/sasha/.cache/pypoetry/artifacts/1c/01/35/b2dd947cf30cebed9d513dfd93ff368d3f8923c1b8c70c29e906af3bd8/psycopg2_binary-2.9.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-pycodestyle @ file:///home/sasha/.cache/pypoetry/artifacts/5f/82/b7/55e8169e417019a01aec56ea9eaf01d969188a4c827c240a440a3209bf/pycodestyle-2.9.1-py2.py3-none-any.whl
-pyflakes @ file:///home/sasha/.cache/pypoetry/artifacts/e7/19/53/bae1a38831f54ce33cffad8f06e90b911ed4beb5f2e985bc465751a1a1/pyflakes-2.5.0-py2.py3-none-any.whl
-pyparsing @ file:///home/sasha/.cache/pypoetry/artifacts/e1/09/c0/6a6df3ef412eb19fcda1b353ea54e3b48f9c518348fadd0967a962cbb6/pyparsing-3.0.9-py3-none-any.whl
-pytz @ file:///home/sasha/.cache/pypoetry/artifacts/79/31/8e/dd8702c804757e975df63ad8f3a18ba5a331ea2efa35e2daf1eee467ac/pytz-2022.5-py2.py3-none-any.whl
-requests @ file:///home/sasha/.cache/pypoetry/artifacts/14/1f/4d/1b93db6513b8ab38db841e4ce62691288ba549a5c1b6f3ca7274a1c9fd/requests-2.28.1-py3-none-any.whl
-ruamel.yaml @ file:///home/sasha/.cache/pypoetry/artifacts/83/da/fc/4999c3989394ae7ede9799f870029290e70d3d89709057f3396a366a93/ruamel.yaml-0.17.21-py3-none-any.whl
-ruamel.yaml.clib @ file:///home/sasha/.cache/pypoetry/artifacts/4b/c4/f2/dd7f08fed0636986b3e9072af17c8506e80a9f8ea223bc222b713329bf/ruamel.yaml.clib-0.2.7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl
-sqlparse @ file:///home/sasha/.cache/pypoetry/artifacts/a1/af/f8/455c6a9ddac932a7d03e9c6096c170cba497461b2d2b6eb7d0e7bacb70/sqlparse-0.4.3-py3-none-any.whl
-tomli @ file:///home/sasha/.cache/pypoetry/artifacts/62/12/b6/6db9ebb9c8e1a6c5aa8a92ae73098d8119816b5e8507490916621bc305/tomli-2.0.1-py3-none-any.whl
-uritemplate @ file:///home/sasha/.cache/pypoetry/artifacts/2a/d6/11/cd290afd2d0cea58f6e23668fa9814ba18c6fa968dfbd7d280a2f76dc6/uritemplate-4.1.1-py2.py3-none-any.whl
-urllib3 @ file:///home/sasha/.cache/pypoetry/artifacts/01/67/f2/ecf92c52cfdc6b9ccfbcc95351b5c2708889d7031a05bc0c2a2391c5be/urllib3-1.26.12-py2.py3-none-any.whl
+asgiref==3.5.2
+black==22.10.0
+certifi==2022.9.24
+charset-normalizer==2.1.1
+click==8.1.3
+coreapi==2.3.3
+coreschema==0.0.4
+Django==4.1.2
+django-environ==0.9.0
+django-filter==22.1
+django-rest-passwordreset==1.3.0
+djangorestframework==3.14.0
+drf-yasg==1.21.4
+flake8==5.0.4
+inflection==0.5.1
+isort==5.10.1
+itypes ==1.2.0
+Jinja2==3.1.2
+MarkupSafe==2.1.1
+mccabe==0.7.0
+mypy-extensions==0.4.3
+packaging==21.3
+pathspec==0.10.1
+pip==22.2
+platformdirs==2.5.2
+psycopg2-binary==2.9.4
+pycodestyle==2.9.1
+pyflakes==2.5.0
+pyparsing==3.0.9
+pytz==2022.5
+requests==2.28.1
+ruamel.yaml==0.17.21
+ruamel.yaml.clib==0.2.7
+setuptools==63.2.0
+sqlparse==0.4.3
+tomli==2.0.1
+uritemplate==4.1.1
+urllib3==1.26.12
+wheel==0.37.1
