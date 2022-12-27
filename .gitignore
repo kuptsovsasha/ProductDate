@@ -7,3 +7,8 @@ shell.nix
 __pycache__/
 celerybeat-schedule
 *.iml
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
