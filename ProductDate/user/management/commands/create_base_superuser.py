@@ -15,7 +15,7 @@ class Command(BaseCommand):
         password = "admin"
 
         try:
-            User.objects.create_superuser(username, password)
+            User.objects.create_superuser(username=username, password=password)
         except IntegrityError:
             print("Base superuser already created!")
         except Exception as e:
