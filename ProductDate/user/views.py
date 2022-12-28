@@ -1,5 +1,6 @@
 from rest_framework import generics, permissions, status
 from rest_framework.authtoken.models import Token
+from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
 
 from .models import User
@@ -76,3 +77,11 @@ class UserUpdateAPIView(generics.UpdateAPIView):
     def get_object(self, queryset=None):
         obj = self.request.user
         return obj
+
+
+# for testing
+@api_view(["GET"])
+@permission_classes((permissions.AllowAny,))
+def delete_users(request, *args, **kwargs):
+    User.objects.all().delete()
+    return Response("all users have being deleted")
