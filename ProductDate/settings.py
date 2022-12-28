@@ -34,7 +34,7 @@ SECRET_KEY = "django-insecure-*os05lr*u#o%17ds%$-)xl@)a%lisbzwbmtt(90!dhwuy)tu%l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["productdate-stage.eu-central-1.elasticbeanstalk.com", "*"]
 
 
 # Application definition
@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     "rest_framework.authtoken",
     "django_rest_passwordreset",
     "drf_yasg",
+    "corsheaders",
+    "storages",
     "ProductDate.user",
     "ProductDate.company",
     "ProductDate.products",
@@ -63,7 +65,24 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
 ]
+
+CORS_ALLOW_HEADERS = (
+    "accept",
+    "accept-encoding",
+    "authorization",
+    "content-type",
+    "dnt",
+    "origin",
+    "user-agent",
+    "x-csrftoken",
+    "x-requested-with",
+    "cache-control",
+    "pragma",
+    "expires",
+)
+CORS_ORIGIN_ALLOW_ALL = True
 
 ROOT_URLCONF = "ProductDate.urls"
 
@@ -85,6 +104,17 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "ProductDate.wsgi.application"
 
+# AWS
+if "AWS_STORAGE_BUCKET_NAME" in os.environ:
+    STATICFILES_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
+    DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
+
+    AWS_STORAGE_BUCKET_NAME = os.environ["AWS_STORAGE_BUCKET_NAME"]
+    AWS_S3_REGION_NAME = os.environ["AWS_S3_REGION_NAME"]
+
+    AWS_S3_ACCESS_KEY_ID = os.environ["AWS_ACCESS_KEY_ID"]
+    AWS_S3_SECRET_ACCESS_KEY = os.environ["AWS_SECRET_ACCESS_KEY"]
+
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
@@ -99,7 +129,7 @@ if "RDS_DB_NAME" in os.environ:
             "PORT": os.environ["RDS_PORT"],
         }
     }
-if os.environ.get("GITHUB_WORKFLOW"):
+elif os.environ.get("GITHUB_WORKFLOW"):
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.postgresql",
